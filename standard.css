@@ -1,0 +1,185 @@
+body {
+  	background-color: darkred;
+  	text-align: center;
+	margin: 0px;
+	font-size: 100%;
+}
+
+a {
+	color: grey;
+	font-size: 1.1em;
+	text-decoration: none;
+	margin: 3px;
+	padding: 2.7px;
+}
+
+a:hover {
+	color: green;
+}
+
+div.NavBar {
+	font-size: 130%;
+    padding: 0.5%;
+    float: left;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+div.banner {
+    height: 500px;
+    background: url("imgs/BondBanner.jpg") no-repeat center;
+    background-size: cover;
+}
+
+h1 {
+	background-color: indianred;
+	font-size: 42px;
+	border: 5px solid;
+	border-radius: 2rem;
+	width: 500px;
+	margin: auto;
+}
+
+h2 {
+	background-color: indianred;
+	font-size: 54px;
+	border: 5px solid;
+	border-radius: 2rem;
+	width: 532px;
+	margin: auto;
+}
+
+h3 {
+	background-color: indianred;
+	font-size: 50px;
+	border: 5px solid;
+	width: 480px;
+	margin: auto;
+}
+
+h4 {
+	color: lightsteelblue;
+	font-weight: bolder;
+	font-size: 75px;
+	font-variant: small-caps;
+	font-family: "Brush Script MT", "Brush Script Std", cursive;
+	animation-duration: 2s;
+    animation-name: glow;
+    animation-iteration-count: infinite;
+    background-color: indianred;
+    margin: auto;
+	border: 5px solid black;
+	border-radius: 1rem;
+	width: 500px;
+}
+
+h5 {
+	font-size: 20px;
+	text-align: center;
+	margin: auto;
+	font-style: italic;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 20px #2d9da9;
+    }
+    to {
+      text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+    }
+}
+
+iframe {
+   	display: block;
+   	margin: auto;
+   	border: 0;
+}
+
+.introduction {
+	background-color: indianred;
+	width: 580px;
+	margin: auto;
+	border: 5px solid;
+	border-radius: 1rem;
+	font-size: 15px;
+}
+
+.audio {
+	background-color: indianred;
+	border: 5px solid black;
+	border-radius: 3rem;
+	padding: 10px;
+	width: 300px;
+	display: inline-flex;
+}
+
+.row {
+	display: inline-grid;
+	grid-template-columns: auto;
+ 	grid-gap: 4%;
+ 	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.row1 {
+	display: inline-grid;
+	grid-template-columns: auto auto;
+  	grid-gap: 4%;
+	color: lightsteelblue;
+	font-weight: bolder;
+	font-size: 32px;
+	font-variant: small-caps;
+	font-family: "Brush Script MT", "Brush Script Std", cursive;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+img {
+	border: 5px solid
+}
+
+#image {
+	width: 95%;
+	height: 95%;
+}
+
+.card {
+    background-color: indianred;
+	padding: 15px;
+	margin: auto;
+	border: 5px solid black;
+	border-radius: 1rem;
+}
+
+p.MovieTitle {
+	color: lightsteelblue;
+	font-weight: bold;
+	font-size: 28px;
+	font-family: "Courier New", monospace;
+}
+
+.FilmList {
+	text-align: left;
+	padding-left: 18%;
+	font-size: 20px;
+}
+
+#contentImage {
+	width: 95%;
+	height: auto;
+}
+
+#contentClip {
+	width: 520px;
+	height: 293px;
+}
+
+.outro {
+	background-color: indianred;
+	padding: 15px;
+	width: 540px;
+	margin: auto;
+	margin-top: 185px;
+	border: 5px solid black;
+	border-radius: 1rem;
+}
